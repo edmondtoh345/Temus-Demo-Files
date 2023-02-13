@@ -1,0 +1,69 @@
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <form>
+                <mat-form-field class="example-full-width">
+                    <mat-label>First Name</mat-label>
+                    <input [formControl]="fname" matInput />
+                </mat-form-field>
+                <div class="text-danger" *ngIf="fname.dirty && fname.invalid">First Name has errors</div>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Last Name</mat-label>
+                    <input [formControl]="lname" matInput />
+                </mat-form-field>
+                <div class="text-danger" *ngIf="lname.dirty && lname.invalid">Last Name has errors</div>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Email</mat-label>
+                    <input [formControl]="email" matInput />
+                </mat-form-field>
+                <div class="text-danger" *ngIf="email.dirty && email.invalid">Email has errors</div>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Password</mat-label>
+                    <input [formControl]="password" type="password" matInput />
+                </mat-form-field>
+                <div class="text-danger" *ngIf="password.dirty && password.invalid">Password has errors</div>
+                <button mat-raised-button color="primary">Register</button>
+            </form>
+        </div>
+    </div>
+</div> -->
+
+<div class="container mt-2">
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                <mat-form-field class="example-full-width">
+                    <mat-label>First Name</mat-label>
+                    <input formControlName="firstname" matInput />
+                </mat-form-field>
+                <div class="text-danger" *ngIf="firstname?.dirty && firstname?.invalid">First Name has errors</div>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Last Name</mat-label>
+                    <input formControlName="lastname" matInput />
+                </mat-form-field>
+                <div class="text-danger" *ngIf="lastname?.dirty && lastname?.invalid">Last Name has errors</div>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Email</mat-label>
+                    <input formControlName="email" matInput />
+                </mat-form-field>
+                <div class="text-danger" *ngIf="email?.dirty && email?.invalid">Email has errors</div>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Password</mat-label>
+                    <input formControlName="password" type="password" matInput />
+                </mat-form-field>
+                <div class="text-danger" *ngIf="password?.dirty && password?.invalid">Password has errors</div>
+                <mat-form-field class="example-full-width">
+                    <mat-label>City</mat-label>
+                    <input formControlName="city" type="city" matInput />
+                </mat-form-field>
+                <div class="text-danger" *ngIf="city?.dirty && city?.invalid">City has errors</div>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Age</mat-label>
+                    <input formControlName="age" matInput />
+                </mat-form-field>
+                <div class="text-danger" *ngIf="age?.dirty && age?.invalid">Age has errors</div>
+                <button mat-raised-button color="primary">Register</button>
+            </form>
+        </div>
+    </div>
+</div>

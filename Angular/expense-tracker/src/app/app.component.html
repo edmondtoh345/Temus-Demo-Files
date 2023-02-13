@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 offset-md-4">
+      <h1 class="text-center">Expense Tracker</h1>
+      <h2 class="text-center">Your Balance: ${{income - expense}}</h2>
+      <h3 class="text-center">Income: ${{income}} Expense: ${{expense}}</h3>
+      <form [formGroup]="trackerForm" (ngSubmit)="AddTransaction()">
+        <div class="mt-2">
+          <input type="number" formControlName="amount" class="form-control" placeholder="Enter Amount" />
+        </div>
+        <div class="mt-2">
+          <input type="text" formControlName="description" class="form-control" placeholder="Enter Description" />
+        </div>
+        <div class="mt-2">
+          <input type="date" formControlName="date" class="form-control" placeholder="" />
+        </div>
+        <div class="mt-2 text-center">
+          <input class="form-check-input" formControlName="category" value="Income" name="category" type="radio"
+            id="flexRadioDefault1">
+          <label class="form-check-label ms-1" for="flexRadioDefault1">
+            Income
+          </label>
+          <input class="form-check-input ms-4" formControlName="category" value="Expense" name="category" type="radio"
+            id="flexRadioDefault2">
+          <label class="form-check-label ms-1" for="flexRadioDefault2">
+            Expense
+          </label>
+        </div>
+        <div class="mt-2 d-grid mt-3">
+          <button class="btn btn-primary">Add Transaction</button>
+        </div>
+      </form>
+      <ul class="list-group mt-3">
+        <li class="list-group-item mb-3" [ngClass]="x.category=='Income'?'border-green':'border-red'" *ngFor="let x of transactions">{{x.date}} {{x.description}} {{x.amount}} <i
+            (click)="DeleteTransaction(x.id)" class="fa-solid fa-xmark text-danger float-end"></i></li>
+      </ul>
+    </div>
+  </div>
+</div>

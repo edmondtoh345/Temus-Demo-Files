@@ -1,0 +1,16 @@
+{
+  "Routes": [
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/product",
+      "DownstreamScheme": "https",
+      "ServiceName": "ProductAPI",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/v1/product",
+      "UpstreamHttpMethod": [ "GET" ]
+    }
+
+  ]
+}

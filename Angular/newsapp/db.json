@@ -1,0 +1,94 @@
+{
+  "favorites": [
+    {
+      "source": {
+        "id": null,
+        "name": "SamMobile"
+      },
+      "author": "SamMobile, Asif Iqbal Shaik",
+      "title": "Corning and Samsung confirm Galaxy S23 features Gorilla Glass Victus 2 - SamMobile - Samsung news",
+      "description": "Usually, Samsung is the first in the smartphone industry to incorporate Corning's new Gorilla Glass protection. A few months ago, ...",
+      "url": "https://www.sammobile.com/news/samsung-confirm-galaxy-s23-gorilla-glass-victus-2/",
+      "urlToImage": "https://www.sammobile.com/wp-content/uploads/2023/01/Samsung-Galaxy-S23-Series-720x405.jpg",
+      "publishedAt": "2023-01-27T06:22:00Z",
+      "content": "Usually, Samsung is the first in the smartphone industry to incorporate Cornings new Gorilla Glass protection. A few months ago, Corning unveiled Gorilla Glass Victus 2 and promised that it would be … [+1218 chars]",
+      "email": null,
+      "id": 1
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Moscow Times"
+      },
+      "author": "Daria Andriievska for AFP",
+      "title": "Russian Missiles Kill 11 in Ukraine After Tank Pledge - The Moscow Times",
+      "description": "A blistering wave of Russian strikes targeting Ukraine's energy infrastructure killed 11 people on Thursday, a day after Germany and the United States pledged heavy tanks for Kyiv.",
+      "url": "https://www.themoscowtimes.com/2023/01/26/russian-missiles-kill-11-in-ukraine-after-tank-pledge-a80051",
+      "urlToImage": "https://static.themoscowtimes.com/image/og/b8/80051__b86ece4a7f0a30f0280d6b08980572dd.jpg",
+      "publishedAt": "2023-01-27T06:41:45Z",
+      "content": "A blistering wave of Russian strikes targeting Ukraine's energy infrastructure killed 11 people on Thursday, a day after Germany and the United States pledged heavy tanks for Kyiv.\r\nThe stepped-up mi… [+4743 chars]",
+      "email": "Amit@gmail.com",
+      "id": 2
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "ESPN"
+      },
+      "author": "Jeff Borzello",
+      "title": "Billy Packer, 82, longtime Final Four basketball analyst, dies - ESPN",
+      "description": "Longtime college basketball commentator Billy Packer, the voice of the NCAA tournament for more than 30 years, died Thursday night. He was 82.",
+      "url": "https://www.espn.com/mens-college-basketball/story/_/id/35535286/billy-packer-82-long-final-four-basketball-analyst-dies",
+      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F0127%2Fr1123045_2_1296x1296_1%2D1.jpg",
+      "publishedAt": "2023-01-27T05:48:45Z",
+      "content": "Longtime college basketball commentator Billy Packer, the voice of the NCAA tournament for more than 30 years, died Thursday night. He was 82.\r\nPacker's two sons, Mark and Brandt, announced the news … [+5729 chars]",
+      "email": "Amit@gmail.com",
+      "id": 3
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Jori Epstein",
+      "title": "Cowboys give Mike McCarthy huge vote of confidence, while Kellen Moore's status is much more murky - Yahoo Sports",
+      "description": "Dallas is running it back with its head coach for another season, but a shake-up elsewhere on staff has already begun.",
+      "url": "https://sports.yahoo.com/cowboys-give-mike-mccarthy-huge-vote-of-confidence-while-kellen-moores-status-is-much-more-murky-032508883.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/lUwR50zYHBCyQdV_yxbG0g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04NDY-/https://s.yimg.com/os/creatr-uploaded-images/2023-01/d2b6a350-9df0-11ed-b77e-818afb37259d",
+      "publishedAt": "2023-01-27T03:25:00Z",
+      "content": "Jerry Jones and Mike McCarthy met this week to discuss the Dallas Cowboys future.\r\nJones, the team owner, didnt simply express confidence in head coach McCarthys ability to win in 2023. Jones summone… [+6201 chars]",
+      "email": "Amit@gmail.com",
+      "id": 4
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YouTube"
+      },
+      "author": null,
+      "title": "Prince Andrew booted from Buckingham Palace | 7NEWS - 7NEWS Australia",
+      "description": "Controversial member of the royal family Prince Andrew has reportedly been booted from Buckingham Palace. There’s now growing widespread speculation as to wh...",
+      "url": "https://www.youtube.com/watch?v=vP4g-3B9rMw",
+      "urlToImage": "https://i.ytimg.com/vi/vP4g-3B9rMw/maxresdefault.jpg",
+      "publishedAt": "2023-01-27T01:02:23Z",
+      "content": null,
+      "email": "Peter@gmail.com",
+      "id": 5
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": "https://www.facebook.com/bbcnews",
+      "title": "Asteroid 2023 BU: Space rock passes closer than some satellites - BBC",
+      "description": "About the size of a bus, the space rock whipped over the southern tip of South America.",
+      "url": "https://www.bbc.com/news/science-environment-64411469",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7FC8/production/_128421723_gettyimages-1365125730.jpg",
+      "publishedAt": "2023-01-27T00:57:17Z",
+      "content": "Now it's over, we can say it: a biggish asteroid passed by Earth a short while ago.\r\nAbout the size of a minibus, the space rock, known as 2023 BU, whipped over the southern tip of South America just… [+3514 chars]",
+      "email": "Peter@gmail.com",
+      "id": 6
+    }
+  ]
+}

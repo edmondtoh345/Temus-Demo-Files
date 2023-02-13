@@ -1,0 +1,15 @@
+div{
+    background-color: yellow;
+    color: red;
+    border: 5px solid blue;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: -10px 10px 27px 6px rgba(130,67,67,0.75);
+    opacity: 0.5;
+}

@@ -1,0 +1,18 @@
+ul{
+    list-style-type: none;
+    background-color: rgb(218, 38, 77);
+    display: block;
+    padding: 20px 20px;
+}
+ul>li{
+    display: inline;
+    color: rgb(57, 54, 54);
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+ul>li:hover{
+    color:green;
+    background-color: pink;
+}

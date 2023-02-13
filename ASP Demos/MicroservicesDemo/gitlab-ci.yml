@@ -1,0 +1,18 @@
+image: mcr.microsoft.com/dotnet/sdk:6.0
+stages:
+  - build
+  - test
+  - publish
+build:
+  stage: build
+  script:
+    - 'dotnet restore'
+    - 'dotnet build'
+test:
+  stage: test
+  script:
+    - 'dotnet test TestProject/TestProject.csproj'
+publish:
+  stage: publish
+  script:
+    - 'dotnet publish'

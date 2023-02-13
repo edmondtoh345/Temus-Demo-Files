@@ -1,0 +1,24 @@
+<input type="text" [(ngModel)]="userInput"/>
+<button (click)="Calculate()">Calculate</button>
+<h2>{{result}}</h2>
+
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let u of users">{{u.name}}</li>
+</ul>
+
+<table class="table">
+    <thead>
+        <th>Name</th>
+        <th>Email</th>
+        <th>City</th>
+        <th>Phone</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let x of users">
+            <td>{{x.name}}</td>
+            <td>{{x.email}}</td>
+            <td>{{x.address.city}}</td>
+            <td>{{x.phone}}</td>
+        </tr>
+    </tbody>
+</table>

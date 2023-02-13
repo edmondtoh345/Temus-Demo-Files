@@ -1,0 +1,32 @@
+{
+  "contacts": [
+    {
+      "FirstName": "Peter",
+      "LastName": "Parker",
+      "Email": "Peter@outlook.com",
+      "Phone": "2365283",
+      "id": 1
+    },
+    {
+      "FirstName": "Steven",
+      "LastName": "Strange",
+      "Email": "Steven@hotmail.com",
+      "Phone": "98645825",
+      "id": 2
+    },
+    {
+      "FirstName": "Tony",
+      "LastName": "Stark",
+      "Email": "Tony@hotmail.com",
+      "Phone": "23928638",
+      "id": 3
+    },
+    {
+      "FirstName": "James",
+      "LastName": "Cameron",
+      "Email": "James@gmail.com",
+      "Phone": "2388562389",
+      "id": 4
+    }
+  ]
+}

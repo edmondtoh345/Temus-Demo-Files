@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayeredAppDemo", "LayeredAppDemo\LayeredAppDemo.csproj", "{D573567E-E21C-41F8-8A4C-1255B7524981}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D573567E-E21C-41F8-8A4C-1255B7524981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D573567E-E21C-41F8-8A4C-1255B7524981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D573567E-E21C-41F8-8A4C-1255B7524981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D573567E-E21C-41F8-8A4C-1255B7524981}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0B76F3A-4E92-460F-804A-8FF3880D08E6}
+	EndGlobalSection
+EndGlobal

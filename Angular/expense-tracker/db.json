@@ -1,0 +1,32 @@
+{
+  "transactions": [
+    {
+      "amount": 10000,
+      "description": "Salary",
+      "date": "2023-01-01",
+      "category": "Income",
+      "id": 1
+    },
+    {
+      "amount": 200,
+      "description": "Rent",
+      "date": "2023-10-10",
+      "category": "Expense",
+      "id": 2
+    },
+    {
+      "amount": 500,
+      "description": "grocery",
+      "date": "2023-10-10",
+      "category": "Expense",
+      "id": 3
+    },
+    {
+      "amount": 500,
+      "description": "gym fees",
+      "date": "2023-01-10",
+      "category": "Expense",
+      "id": 4
+    }
+  ]
+}

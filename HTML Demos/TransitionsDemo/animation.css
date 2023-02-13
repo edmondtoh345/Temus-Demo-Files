@@ -1,0 +1,58 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    animation-name: myanim;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+
+div:hover{
+    animation-play-state:paused;
+}
+
+@keyframes myanim {
+    0% {
+        top: 10px;
+        left: 10px;
+        background-color: blue;
+    }
+    25%{
+        top: 10px;
+        left: 200px;
+        background-color: yellow;
+        border-radius: 50%;
+    }
+    50%{
+        top: 200px;
+        left: 200px;
+        background-color: red;
+    }
+    75%{
+        top: 200px;
+        left: 10px;
+        background-color: green;
+        border-radius: 50%;
+    }
+    100%{
+        top: 10px;
+        left: 10px;
+        background-color: blue;
+    }
+}
+
+/* @keyframes myanim {
+    from {
+        background-color: blue;
+        color: white
+    }
+
+    to {
+        background-color: red;
+        color: yellow;
+    }
+} */

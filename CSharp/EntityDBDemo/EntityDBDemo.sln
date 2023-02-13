@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityDBDemo", "EntityDBDemo\EntityDBDemo.csproj", "{79F3CB93-6BC2-4F33-85F3-561B56C2B266}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79F3CB93-6BC2-4F33-85F3-561B56C2B266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F3CB93-6BC2-4F33-85F3-561B56C2B266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F3CB93-6BC2-4F33-85F3-561B56C2B266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F3CB93-6BC2-4F33-85F3-561B56C2B266}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD97F9B3-0D54-444A-A254-BB2F5072E81F}
+	EndGlobalSection
+EndGlobal

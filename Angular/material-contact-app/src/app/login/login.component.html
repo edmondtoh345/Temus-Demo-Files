@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                <mat-form-field class="example-full-width">
+                    <mat-label>Email</mat-label>
+                    <input formControlName="email" matInput />
+                </mat-form-field>
+                <div class="text-danger" *ngIf="email?.dirty && email?.invalid">Email has errors</div>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Password</mat-label>
+                    <input formControlName="password" type="password" matInput />
+                </mat-form-field>
+                <button mat-raised-button color="primary">Login</button>
+            </form>
+        </div>
+    </div>
+</div>

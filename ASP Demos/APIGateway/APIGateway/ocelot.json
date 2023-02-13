@@ -1,0 +1,15 @@
+{
+  "Routes": [
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/customer",
+      "DownstreamScheme": "https",
+      "ServiceName": "CustomerAPI",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UpstreamPathTemplate": "/api/v1/customer",
+      "UpstreamHttpMethod": [ "GET" ]
+    }
+  ]
+}

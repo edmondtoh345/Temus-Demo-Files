@@ -1,0 +1,28 @@
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-9">
+            <div class="card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="{{profiledata.picture}}" width="100%" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">{{profiledata.firstName}} {{profiledata.lastName}}</h5>
+                      <p class="card-text">{{profiledata.email}}</p>
+                      <p class="card-text">{{profiledata.dateOfBirth}}</p>
+                      <p class="card-text">{{profiledata.gender}}</p>
+                      <p class="card-text">{{profiledata.phone}}</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <router-outlet></router-outlet>      
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+<h2>This is Header Component</h2>
+<h2>{{username}}</h2>
+<p>{{person.firstname}} {{person.lastname}}</p>
+
+<h2 [style.color]="headingcolor">Using Style Binding</h2>
+
+<p [style]="myStyle">Lorem ipsum dolor sit amet.</p>
+
+<h2 [class.heading]="isSuccess">Using Class Binding</h2>
+
+<h1 [class]="headingStyle">This is Task 1</h1>
+
+<input type="text" [disabled]="isDisabled" value="{{defaultValue}}" />
+
+<input type="text" placeholder="Enter UserName" [(ngModel)]="customername"/>
+<p>{{customername}}</p>
+
+<input type="checkbox" (change)="ShowStatus($event)"/>
+
+<button class="btn btn-secondary" (click)="Show()">Submit</button>
+<input type="color">

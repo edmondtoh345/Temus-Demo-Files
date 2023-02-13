@@ -1,0 +1,32 @@
+/* h2::before{
+    color: red;
+} */
+
+/* p:hover{
+    color: red;
+} */
+
+a:link{
+    color: green;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color:red;
+}
+
+/* p:first-child{
+    color: green;
+} */
+
+p:nth-child(odd){
+    color: red;
+}
+
+
+
+
+
+
+

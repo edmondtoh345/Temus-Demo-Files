@@ -1,0 +1,73 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <div class="mt-2">
+                <input type="text" class="form-control form-control-sm" [(ngModel)]="contact.FirstName"
+                    placeholder="First Name" />
+            </div>
+            <div class="mt-2">
+                <input type="text" class="form-control form-control-sm" [(ngModel)]="contact.LastName"
+                    placeholder="Last Name" />
+            </div>
+            <div class="mt-2">
+                <input type="text" class="form-control form-control-sm" [(ngModel)]="contact.Email"
+                    placeholder="Email" />
+            </div>
+            <div class="mt-2">
+                <input type="text" class="form-control form-control-sm" [(ngModel)]="contact.Phone"
+                    placeholder="Phone" />
+            </div>
+            <div class="mt-2">
+                <button class="btn btn-secondary" (click)="AddContact()">Add Contact</button>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-md-3" *ngFor="let c of contacts">
+            <div class="card">
+                <div class="card-body">
+                    <i (click)="DeleteContact(c.id)" class="fa-solid fa-trash float-end text-danger"></i>
+                    <i (click)="GetContact(c.id)" class="fa-solid fa-pen float-end text-primary px-3" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"></i>
+                    <h5 class="card-title">{{c.FirstName}} {{c.LastName}}</h5>
+                    <p class="card-text">{{c.Email}}</p>
+                    <p class="card-text">{{c.Phone}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mt-2">
+                    <input type="text" class="form-control form-control-sm" [(ngModel)]="updateContact.FirstName"
+                        placeholder="First Name" />
+                </div>
+                <div class="mt-2">
+                    <input type="text" class="form-control form-control-sm" [(ngModel)]="updateContact.LastName"
+                        placeholder="Last Name" />
+                </div>
+                <div class="mt-2">
+                    <input type="text" class="form-control form-control-sm" [(ngModel)]="updateContact.Email"
+                        placeholder="Email" />
+                </div>
+                <div class="mt-2">
+                    <input type="text" class="form-control form-control-sm" [(ngModel)]="updateContact.Phone"
+                        placeholder="Phone" />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" (click)="UpdateContact()"  data-bs-dismiss="modal">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>

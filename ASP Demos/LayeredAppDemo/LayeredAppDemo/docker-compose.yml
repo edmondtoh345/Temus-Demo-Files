@@ -1,0 +1,17 @@
+version: '3.5'
+
+services:
+  customerservice:
+    image: customerapi
+    ports:
+      - "5000:80"
+    environment:
+      SQL_DB: "Server=sqldb;Initial Catalog=CustomersDB;User Id=sa;password=pass@123"
+  
+  sqldb:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    ports:
+      - "1433:1433"
+    environment:
+      - SA_PASSWORD=pass@123
+      - ACCEPT_EULA=Y

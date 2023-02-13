@@ -1,0 +1,23 @@
+img {
+    width: 300px;
+    height: 200px;
+    /* position: fixed;
+    top: 0;
+    left: 100px */
+    float: left;
+    margin-right: 10px;
+}
+
+/* h1{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    color: green;
+    z-index: 1;
+} */
+h1 {
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+

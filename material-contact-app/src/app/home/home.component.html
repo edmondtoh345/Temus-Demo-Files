@@ -1,0 +1,22 @@
+<div class="container mt-2">
+    <div class="row">
+        <div class="col-md-3" *ngFor="let c of contacts">
+            <mat-card class="example-card">
+                <mat-card-header>
+                  <div mat-card-avatar class="bg-danger lh-lg text-light text-center pt-2" >{{c.fname.charAt(0)}} {{c.lname.charAt(0)}}</div>
+                  <mat-card-title>{{c.fname}} {{c.lname}}</mat-card-title>
+                  <mat-card-subtitle>{{c.email}}</mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content>
+                  <p>{{c.city}}</p>
+                  <p>{{c.phone}}</p>
+                  <p>{{c.age}}</p>
+                </mat-card-content>
+                <mat-card-actions>
+                  <a mat-button routerLink="/update/{{c.id}}">EDIT</a>
+                  <button mat-button>DELETE</button>
+                </mat-card-actions>
+              </mat-card>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <ul class="list-group">
+                <li class="list-group-item" *ngFor="let x of fruits">{{x}}</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Brand</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let p of products; let i=index">
+                        <ng-container *ngIf="p.price>300">
+                            <td>{{i+1}}</td>
+                            <td>{{p.name}}</td>
+                            <td>{{p.brand}}</td>
+                            <td>{{p.price}}</td>
+                        </ng-container>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <input type="text" [(ngModel)]="day">
+            <div [ngSwitch]="day">
+                <p *ngSwitchCase="1">Sunday</p>
+                <p *ngSwitchCase="2">Monday</p>
+                <p *ngSwitchCase="3">Tuesday</p>
+                <p *ngSwitchDefault>Wrong value</p>
+            </div>      
+        </div>
+    </div>
+</div>

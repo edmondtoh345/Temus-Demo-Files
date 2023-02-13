@@ -1,0 +1,27 @@
+/* h2{
+    color: red;
+}
+
+@media print{
+    h2{
+        color: blue;
+        font-size: 50pt;
+    }
+}
+
+@media screen and (max-width: 600px){
+    h2{
+        color: green;
+        font-size: 70pt;
+    }
+} */
+
+/* .container {
+    display: flex;
+}
+
+@media screen and (max-width: 550px) {
+    .container{
+        flex-direction: column;
+    }
+} */

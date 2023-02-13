@@ -1,0 +1,63 @@
+<!-- <button mat-raised-button color="primary">Primary</button> -->
+<mat-toolbar color="primary">
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span id="brand-name">Contact Manager</span>
+  <button routerLink="/" mat-button>
+    <mat-icon>home</mat-icon> Home
+  </button>
+  <button routerLink="/addcontact" mat-button>
+    <mat-icon>add</mat-icon> Add Contact
+  </button>
+  <span class="example-spacer"></span>
+  <div>
+    <button routerLink="/register" mat-button>
+      <mat-icon>account_circle</mat-icon> Register
+    </button>
+    <button routerLink="/login" mat-button>
+      <mat-icon>key</mat-icon> Login
+    </button>
+  </div>
+</mat-toolbar>
+<router-outlet></router-outlet>
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Shiba Inu</mat-card-title>
+          <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>LIKE</button>
+          <button mat-button>SHARE</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <mat-form-field appearance="fill">
+        <mat-label>Message</mat-label>
+        <input matInput value="Disco party!" #message>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Action</mat-label>
+        <input matInput value="Dance" #action>
+      </mat-form-field>
+      <button mat-stroked-button (click)="openSnackBar(message.value, action.value)">Show snack-bar</button>
+      <button mat-stroked-button (click)="openSnackBar()">Show snack-bar</button>
+    </div>
+  </div>
+</div> -->

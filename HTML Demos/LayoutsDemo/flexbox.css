@@ -1,0 +1,27 @@
+.container>div {
+    border: 1px solid black;
+    width: 20%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+
+.container>.box2 {
+    height: 100%;
+}
+
+.box1{
+    order: 2;
+}
+.box2{
+    order:1;
+}
+.box3{
+    order: 3;
+}
+

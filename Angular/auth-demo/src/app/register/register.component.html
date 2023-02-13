@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                <div class="mt-2">
+                    <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                        formControlName="firstname" />
+                </div>
+                <div class="mt-2">
+                    <input type="text" class="form-control form-control-sm" placeholder="Last Name"
+                        formControlName="lastname" />
+                </div>
+                <div class="mt-2">
+                    <input type="text" class="form-control form-control-sm" placeholder="Email"
+                        formControlName="email" />
+                </div>
+                <div class="mt-2">
+                    <input type="text" class="form-control form-control-sm" placeholder="Password"
+                        formControlName="password" />
+                </div>
+                <div class="mt-2">
+                    <input type="text" class="form-control form-control-sm" placeholder="City"
+                        formControlName="city" />
+                </div>
+                <div class="mt-2">
+                    <input type="text" class="form-control form-control-sm" placeholder="Age"
+                        formControlName="age" />
+                </div>
+                <div class="mt-2">
+                    <button class="btn btn-primary">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

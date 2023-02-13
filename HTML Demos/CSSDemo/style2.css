@@ -1,0 +1,20 @@
+/* Child Selector */
+/* div>p {
+    color: rgb(209, 44, 44);
+} */
+
+
+/* Descendant Selector */
+/* div p {
+    color: green;
+} */
+
+/* adjacent sibling */
+/* div+p {
+    color: red;
+} */
+
+/* sibling selector */
+div~p{
+    color: red;
+}

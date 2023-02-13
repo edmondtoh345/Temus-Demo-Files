@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-5 offset-md-3">
+            <div class="mt2">
+                <h2 class="text-center">Add New Contact</h2>
+            </div>
+            <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>First Name</mat-label>
+                    <input matInput #fname="ngModel" name="fname" id="fname" required [(ngModel)]="contact.FirstName">
+                </mat-form-field>
+                <div class="text-danger" *ngIf="fname.dirty && fname.errors?.['required']">
+                    First Name is required
+                </div>
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Last Name</mat-label>
+                    <input matInput #lname="ngModel" name="lname" id="lname" required [(ngModel)]="contact.LastName">
+                </mat-form-field>
+                <div class="text-danger" *ngIf="lname.dirty && lname.errors?.['required']">
+                    Last Name is required
+                </div>
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Email</mat-label>
+                    <input matInput #email="ngModel" name="email" id="email" required [(ngModel)]="contact.Email">
+                </mat-form-field>
+                <div class="text-danger" *ngIf="email.dirty && email.errors?.['required']">
+                    Email is required
+                </div>
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>City</mat-label>
+                    <input matInput #city="ngModel" name="city" id="city" required [(ngModel)]="contact.City">
+                </mat-form-field>
+                <div class="text-danger" *ngIf="city.dirty && city.errors?.['required']">
+                    City is required
+                </div>
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Age</mat-label>
+                    <input matInput #age="ngModel" name="age" id="age" required [(ngModel)]="contact.Age">
+                </mat-form-field>
+                <div class="text-danger" *ngIf="age.dirty && age.errors?.['required']">
+                    Age is required
+                </div>
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Phone</mat-label>
+                    <input matInput #phone="ngModel" name="phone" id="phone" required [(ngModel)]="contact.Phone">
+                </mat-form-field>
+                <div class="text-danger" *ngIf="phone.dirty && phone.errors?.['required']">
+                    Phone is required
+                </div>
+                <button mat-raised-button color="primary">Add Contact</button>
+            </form>
+        </div>
+    </div>
+</div>

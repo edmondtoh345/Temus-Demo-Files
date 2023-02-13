@@ -1,0 +1,24 @@
+<div class="container mt-3">
+    <div class="row">
+        <h2 class="text-center">Login</h2>
+        <div class="col-md-4 offset-md-4">
+            <form (ngSubmit)="onSubmit()">
+                <mat-form-field class="example-full-width">
+                    <mat-label>Username</mat-label>
+                    <input id="email" matInput [formControl]="username" />
+                </mat-form-field>
+                <div class="text-danger" *ngIf="username.dirty && username.invalid">
+                    Username is required
+                </div>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Password</mat-label>
+                    <input id="password" type="password" matInput [formControl]="password" />
+                </mat-form-field>
+                <div class="text-danger" *ngIf="password.dirty && password.invalid">
+                    Password is required
+                </div>
+                <button id="btn-login" mat-raised-button color="primary">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
